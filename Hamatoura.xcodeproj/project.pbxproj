@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1852765F1A9E65A00019A6B4 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765B1A9E65A00019A6B4 /* book.png */; };
+		185276601A9E65A00019A6B4 /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765C1A9E65A00019A6B4 /* book@2x.png */; };
+		185276611A9E65A00019A6B4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765D1A9E65A00019A6B4 /* settings.png */; };
+		185276621A9E65A00019A6B4 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765E1A9E65A00019A6B4 /* settings@2x.png */; };
+		185276651A9E6B790019A6B4 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 185276631A9E6B790019A6B4 /* file.png */; };
+		185276661A9E6B790019A6B4 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185276641A9E6B790019A6B4 /* file@2x.png */; };
+		185276691A9E763E0019A6B4 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185276681A9E763E0019A6B4 /* MediaViewController.m */; };
+		1852766C1A9E764B0019A6B4 /* ReadingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852766B1A9E764B0019A6B4 /* ReadingsViewController.m */; };
+		1852766F1A9E76580019A6B4 /* PublicationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852766E1A9E76580019A6B4 /* PublicationsViewController.m */; };
+		185276721A9E768A0019A6B4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185276711A9E768A0019A6B4 /* SettingsViewController.m */; };
+		185276771A9E7B2F0019A6B4 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 185276751A9E7B2F0019A6B4 /* cart.png */; };
+		185276781A9E7B2F0019A6B4 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185276761A9E7B2F0019A6B4 /* cart@2x.png */; };
+		18CB2BCE1A9E52BA0016CCDA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB2BCD1A9E52BA0016CCDA /* HomeViewController.m */; };
+		18CB2BD21A9E553A0016CCDA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB2BD01A9E553A0016CCDA /* home.png */; };
+		18CB2BD31A9E553A0016CCDA /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB2BD11A9E553A0016CCDA /* home@2x.png */; };
+		18CEE3B91A81553200AE43E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE3B81A81553200AE43E0 /* main.m */; };
+		18CEE3BC1A81553200AE43E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE3BB1A81553200AE43E0 /* AppDelegate.m */; };
+		18CEE3BF1A81553200AE43E0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE3BE1A81553200AE43E0 /* BaseViewController.m */; };
+		18CEE3C21A81553200AE43E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CEE3C01A81553200AE43E0 /* Main.storyboard */; };
+		18CEE3C41A81553200AE43E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CEE3C31A81553200AE43E0 /* Images.xcassets */; };
+		18CEE3C71A81553200AE43E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CEE3C51A81553200AE43E0 /* LaunchScreen.xib */; };
+		18CEE3D31A81553200AE43E0 /* HamatouraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE3D21A81553200AE43E0 /* HamatouraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CEE3CD1A81553200AE43E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CEE3AB1A81553200AE43E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CEE3B21A81553200AE43E0;
+			remoteInfo = Hamatoura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1852765B1A9E65A00019A6B4 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		1852765C1A9E65A00019A6B4 /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
+		1852765D1A9E65A00019A6B4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		1852765E1A9E65A00019A6B4 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		185276631A9E6B790019A6B4 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		185276641A9E6B790019A6B4 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
+		185276671A9E763E0019A6B4 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaViewController.h; path = Contollers/MediaViewController.h; sourceTree = "<group>"; };
+		185276681A9E763E0019A6B4 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaViewController.m; path = Contollers/MediaViewController.m; sourceTree = "<group>"; };
+		1852766A1A9E764B0019A6B4 /* ReadingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadingsViewController.h; path = Contollers/ReadingsViewController.h; sourceTree = "<group>"; };
+		1852766B1A9E764B0019A6B4 /* ReadingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadingsViewController.m; path = Contollers/ReadingsViewController.m; sourceTree = "<group>"; };
+		1852766D1A9E76580019A6B4 /* PublicationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicationsViewController.h; path = Contollers/PublicationsViewController.h; sourceTree = "<group>"; };
+		1852766E1A9E76580019A6B4 /* PublicationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicationsViewController.m; path = Contollers/PublicationsViewController.m; sourceTree = "<group>"; };
+		185276701A9E768A0019A6B4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		185276711A9E768A0019A6B4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		185276751A9E7B2F0019A6B4 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		185276761A9E7B2F0019A6B4 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		18CB2BCC1A9E52BA0016CCDA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Contollers/HomeViewController.h; sourceTree = "<group>"; };
+		18CB2BCD1A9E52BA0016CCDA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Contollers/HomeViewController.m; sourceTree = "<group>"; };
+		18CB2BD01A9E553A0016CCDA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		18CB2BD11A9E553A0016CCDA /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		18CEE3B31A81553200AE43E0 /* Hamatoura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamatoura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CEE3B71A81553200AE43E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CEE3B81A81553200AE43E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CEE3BA1A81553200AE43E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CEE3BB1A81553200AE43E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CEE3BD1A81553200AE43E0 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18CEE3BE1A81553200AE43E0 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18CEE3C11A81553200AE43E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CEE3C31A81553200AE43E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18CEE3C61A81553200AE43E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18CEE3CC1A81553200AE43E0 /* HamatouraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamatouraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CEE3D11A81553200AE43E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CEE3D21A81553200AE43E0 /* HamatouraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamatouraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CEE3B01A81553200AE43E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEE3C91A81553200AE43E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CB2BCF1A9E52BE0016CCDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3BD1A81553200AE43E0 /* BaseViewController.h */,
+				18CEE3BE1A81553200AE43E0 /* BaseViewController.m */,
+				18CB2BCC1A9E52BA0016CCDA /* HomeViewController.h */,
+				18CB2BCD1A9E52BA0016CCDA /* HomeViewController.m */,
+				185276671A9E763E0019A6B4 /* MediaViewController.h */,
+				185276681A9E763E0019A6B4 /* MediaViewController.m */,
+				1852766A1A9E764B0019A6B4 /* ReadingsViewController.h */,
+				1852766B1A9E764B0019A6B4 /* ReadingsViewController.m */,
+				1852766D1A9E76580019A6B4 /* PublicationsViewController.h */,
+				1852766E1A9E76580019A6B4 /* PublicationsViewController.m */,
+				185276701A9E768A0019A6B4 /* SettingsViewController.h */,
+				185276711A9E768A0019A6B4 /* SettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		18CB2BD41A9E55400016CCDA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				185276751A9E7B2F0019A6B4 /* cart.png */,
+				185276761A9E7B2F0019A6B4 /* cart@2x.png */,
+				18CB2BD01A9E553A0016CCDA /* home.png */,
+				1852765B1A9E65A00019A6B4 /* book.png */,
+				1852765C1A9E65A00019A6B4 /* book@2x.png */,
+				1852765D1A9E65A00019A6B4 /* settings.png */,
+				1852765E1A9E65A00019A6B4 /* settings@2x.png */,
+				18CB2BD11A9E553A0016CCDA /* home@2x.png */,
+				185276631A9E6B790019A6B4 /* file.png */,
+				185276641A9E6B790019A6B4 /* file@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		18CEE3AA1A81553200AE43E0 = {
+			isa = PBXGroup;
+			children = (
+				18CEE3B51A81553200AE43E0 /* Hamatoura */,
+				18CEE3CF1A81553200AE43E0 /* HamatouraTests */,
+				18CEE3B41A81553200AE43E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CEE3B41A81553200AE43E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3B31A81553200AE43E0 /* Hamatoura.app */,
+				18CEE3CC1A81553200AE43E0 /* HamatouraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CEE3B51A81553200AE43E0 /* Hamatoura */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3C01A81553200AE43E0 /* Main.storyboard */,
+				18CEE3BA1A81553200AE43E0 /* AppDelegate.h */,
+				18CEE3BB1A81553200AE43E0 /* AppDelegate.m */,
+				18CB2BCF1A9E52BE0016CCDA /* Controllers */,
+				18CB2BD41A9E55400016CCDA /* Icons */,
+				18CEE3C31A81553200AE43E0 /* Images.xcassets */,
+				18CEE3C51A81553200AE43E0 /* LaunchScreen.xib */,
+				18CEE3B61A81553200AE43E0 /* Supporting Files */,
+			);
+			path = Hamatoura;
+			sourceTree = "<group>";
+		};
+		18CEE3B61A81553200AE43E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3B71A81553200AE43E0 /* Info.plist */,
+				18CEE3B81A81553200AE43E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CEE3CF1A81553200AE43E0 /* HamatouraTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3D21A81553200AE43E0 /* HamatouraTests.m */,
+				18CEE3D01A81553200AE43E0 /* Supporting Files */,
+			);
+			path = HamatouraTests;
+			sourceTree = "<group>";
+		};
+		18CEE3D01A81553200AE43E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE3D11A81553200AE43E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CEE3B21A81553200AE43E0 /* Hamatoura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CEE3D61A81553200AE43E0 /* Build configuration list for PBXNativeTarget "Hamatoura" */;
+			buildPhases = (
+				18CEE3AF1A81553200AE43E0 /* Sources */,
+				18CEE3B01A81553200AE43E0 /* Frameworks */,
+				18CEE3B11A81553200AE43E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hamatoura;
+			productName = Hamatoura;
+			productReference = 18CEE3B31A81553200AE43E0 /* Hamatoura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CEE3CB1A81553200AE43E0 /* HamatouraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CEE3D91A81553200AE43E0 /* Build configuration list for PBXNativeTarget "HamatouraTests" */;
+			buildPhases = (
+				18CEE3C81A81553200AE43E0 /* Sources */,
+				18CEE3C91A81553200AE43E0 /* Frameworks */,
+				18CEE3CA1A81553200AE43E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CEE3CE1A81553200AE43E0 /* PBXTargetDependency */,
+			);
+			name = HamatouraTests;
+			productName = HamatouraTests;
+			productReference = 18CEE3CC1A81553200AE43E0 /* HamatouraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CEE3AB1A81553200AE43E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LabToApp;
+				TargetAttributes = {
+					18CEE3B21A81553200AE43E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					18CEE3CB1A81553200AE43E0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 18CEE3B21A81553200AE43E0;
+					};
+				};
+			};
+			buildConfigurationList = 18CEE3AE1A81553200AE43E0 /* Build configuration list for PBXProject "Hamatoura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CEE3AA1A81553200AE43E0;
+			productRefGroup = 18CEE3B41A81553200AE43E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CEE3B21A81553200AE43E0 /* Hamatoura */,
+				18CEE3CB1A81553200AE43E0 /* HamatouraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CEE3B11A81553200AE43E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185276611A9E65A00019A6B4 /* settings.png in Resources */,
+				185276661A9E6B790019A6B4 /* file@2x.png in Resources */,
+				185276651A9E6B790019A6B4 /* file.png in Resources */,
+				185276771A9E7B2F0019A6B4 /* cart.png in Resources */,
+				185276621A9E65A00019A6B4 /* settings@2x.png in Resources */,
+				18CB2BD31A9E553A0016CCDA /* home@2x.png in Resources */,
+				185276601A9E65A00019A6B4 /* book@2x.png in Resources */,
+				18CB2BD21A9E553A0016CCDA /* home.png in Resources */,
+				1852765F1A9E65A00019A6B4 /* book.png in Resources */,
+				18CEE3C21A81553200AE43E0 /* Main.storyboard in Resources */,
+				185276781A9E7B2F0019A6B4 /* cart@2x.png in Resources */,
+				18CEE3C71A81553200AE43E0 /* LaunchScreen.xib in Resources */,
+				18CEE3C41A81553200AE43E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEE3CA1A81553200AE43E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CEE3AF1A81553200AE43E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEE3BF1A81553200AE43E0 /* BaseViewController.m in Sources */,
+				1852766C1A9E764B0019A6B4 /* ReadingsViewController.m in Sources */,
+				1852766F1A9E76580019A6B4 /* PublicationsViewController.m in Sources */,
+				185276721A9E768A0019A6B4 /* SettingsViewController.m in Sources */,
+				18CEE3BC1A81553200AE43E0 /* AppDelegate.m in Sources */,
+				18CEE3B91A81553200AE43E0 /* main.m in Sources */,
+				18CB2BCE1A9E52BA0016CCDA /* HomeViewController.m in Sources */,
+				185276691A9E763E0019A6B4 /* MediaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEE3C81A81553200AE43E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEE3D31A81553200AE43E0 /* HamatouraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CEE3CE1A81553200AE43E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CEE3B21A81553200AE43E0 /* Hamatoura */;
+			targetProxy = 18CEE3CD1A81553200AE43E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CEE3C01A81553200AE43E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CEE3C11A81553200AE43E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CEE3C51A81553200AE43E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CEE3C61A81553200AE43E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CEE3D41A81553200AE43E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18CEE3D51A81553200AE43E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CEE3D71A81553200AE43E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Elie Nasr (GRJPPY6RBA)";
+				INFOPLIST_FILE = Hamatoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "021E23BD-88B0-4F56-AA96-1880FC638768";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18CEE3D81A81553200AE43E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hamatoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18CEE3DA1A81553200AE43E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HamatouraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hamatoura.app/Hamatoura";
+			};
+			name = Debug;
+		};
+		18CEE3DB1A81553200AE43E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HamatouraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hamatoura.app/Hamatoura";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CEE3AE1A81553200AE43E0 /* Build configuration list for PBXProject "Hamatoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEE3D41A81553200AE43E0 /* Debug */,
+				18CEE3D51A81553200AE43E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CEE3D61A81553200AE43E0 /* Build configuration list for PBXNativeTarget "Hamatoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEE3D71A81553200AE43E0 /* Debug */,
+				18CEE3D81A81553200AE43E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CEE3D91A81553200AE43E0 /* Build configuration list for PBXNativeTarget "HamatouraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEE3DA1A81553200AE43E0 /* Debug */,
+				18CEE3DB1A81553200AE43E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CEE3AB1A81553200AE43E0 /* Project object */;
+}
