@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 LabToApp. All rights reserved.
 //
 
-#import "BaseViewController.h"
-
-@interface MediaViewController : BaseViewController
+#import "SectionViewController.h"
+#
+@interface MediaViewController : SectionViewController
 
 @end

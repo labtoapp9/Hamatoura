@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 LabToApp. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "SectionViewController.h"
 
-@interface ReadingsViewController : BaseViewController
+@interface ReadingsViewController : SectionViewController 
+
 
 @end

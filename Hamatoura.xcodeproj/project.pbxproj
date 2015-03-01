@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1837D26C1AA3B838001505BC /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837D26B1AA3B838001505BC /* WebViewViewController.m */; };
 		1852765F1A9E65A00019A6B4 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765B1A9E65A00019A6B4 /* book.png */; };
 		185276601A9E65A00019A6B4 /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765C1A9E65A00019A6B4 /* book@2x.png */; };
 		185276611A9E65A00019A6B4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852765D1A9E65A00019A6B4 /* settings.png */; };
@@ -29,6 +30,9 @@
 		18CEE3C41A81553200AE43E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CEE3C31A81553200AE43E0 /* Images.xcassets */; };
 		18CEE3C71A81553200AE43E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CEE3C51A81553200AE43E0 /* LaunchScreen.xib */; };
 		18CEE3D31A81553200AE43E0 /* HamatouraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE3D21A81553200AE43E0 /* HamatouraTests.m */; };
+		18D3FBE41AA3ABD800D8E096 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3FBE31AA3ABD800D8E096 /* Section.m */; };
+		18D3FBE81AA3ACF100D8E096 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3FBE71AA3ACF100D8E096 /* SectionViewController.m */; };
+		18D5D9951AA0FC0D0022C018 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5D9941AA0FC0D0022C018 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1837D26A1AA3B838001505BC /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		1837D26B1AA3B838001505BC /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		1837D26D1AA3B8FA001505BC /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		1837D26E1AA3B993001505BC /* Hamatoura.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hamatoura.pch; sourceTree = SOURCE_ROOT; };
 		1852765B1A9E65A00019A6B4 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		1852765C1A9E65A00019A6B4 /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
 		1852765D1A9E65A00019A6B4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
@@ -75,6 +83,12 @@
 		18CEE3CC1A81553200AE43E0 /* HamatouraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamatouraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CEE3D11A81553200AE43E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CEE3D21A81553200AE43E0 /* HamatouraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamatouraTests.m; sourceTree = "<group>"; };
+		18D3FBE21AA3ABD800D8E096 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Section.h; path = "Data Objects/Section.h"; sourceTree = "<group>"; };
+		18D3FBE31AA3ABD800D8E096 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Section.m; path = "Data Objects/Section.m"; sourceTree = "<group>"; };
+		18D3FBE61AA3ACF100D8E096 /* SectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		18D3FBE71AA3ACF100D8E096 /* SectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		18D5D9931AA0FC0D0022C018 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		18D5D9941AA0FC0D0022C018 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,10 @@
 			children = (
 				18CEE3BD1A81553200AE43E0 /* BaseViewController.h */,
 				18CEE3BE1A81553200AE43E0 /* BaseViewController.m */,
+				18D3FBE61AA3ACF100D8E096 /* SectionViewController.h */,
+				18D3FBE71AA3ACF100D8E096 /* SectionViewController.m */,
+				18D5D9931AA0FC0D0022C018 /* ListViewController.h */,
+				18D5D9941AA0FC0D0022C018 /* ListViewController.m */,
 				18CB2BCC1A9E52BA0016CCDA /* HomeViewController.h */,
 				18CB2BCD1A9E52BA0016CCDA /* HomeViewController.m */,
 				185276671A9E763E0019A6B4 /* MediaViewController.h */,
@@ -110,6 +128,8 @@
 				1852766E1A9E76580019A6B4 /* PublicationsViewController.m */,
 				185276701A9E768A0019A6B4 /* SettingsViewController.h */,
 				185276711A9E768A0019A6B4 /* SettingsViewController.m */,
+				1837D26A1AA3B838001505BC /* WebViewViewController.h */,
+				1837D26B1AA3B838001505BC /* WebViewViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -153,9 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				18CEE3C01A81553200AE43E0 /* Main.storyboard */,
+				1837D26D1AA3B8FA001505BC /* Macros.h */,
 				18CEE3BA1A81553200AE43E0 /* AppDelegate.h */,
 				18CEE3BB1A81553200AE43E0 /* AppDelegate.m */,
 				18CB2BCF1A9E52BE0016CCDA /* Controllers */,
+				18D3FBE51AA3ABDB00D8E096 /* Data Objects */,
 				18CB2BD41A9E55400016CCDA /* Icons */,
 				18CEE3C31A81553200AE43E0 /* Images.xcassets */,
 				18CEE3C51A81553200AE43E0 /* LaunchScreen.xib */,
@@ -167,6 +189,7 @@
 		18CEE3B61A81553200AE43E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1837D26E1AA3B993001505BC /* Hamatoura.pch */,
 				18CEE3B71A81553200AE43E0 /* Info.plist */,
 				18CEE3B81A81553200AE43E0 /* main.m */,
 			);
@@ -188,6 +211,15 @@
 				18CEE3D11A81553200AE43E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D3FBE51AA3ABDB00D8E096 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				18D3FBE21AA3ABD800D8E096 /* Section.h */,
+				18D3FBE31AA3ABD800D8E096 /* Section.m */,
+			);
+			name = "Data Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,9 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CEE3BF1A81553200AE43E0 /* BaseViewController.m in Sources */,
+				18D3FBE41AA3ABD800D8E096 /* Section.m in Sources */,
 				1852766C1A9E764B0019A6B4 /* ReadingsViewController.m in Sources */,
+				18D5D9951AA0FC0D0022C018 /* ListViewController.m in Sources */,
 				1852766F1A9E76580019A6B4 /* PublicationsViewController.m in Sources */,
 				185276721A9E768A0019A6B4 /* SettingsViewController.m in Sources */,
+				1837D26C1AA3B838001505BC /* WebViewViewController.m in Sources */,
+				18D3FBE81AA3ACF100D8E096 /* SectionViewController.m in Sources */,
 				18CEE3BC1A81553200AE43E0 /* AppDelegate.m in Sources */,
 				18CEE3B91A81553200AE43E0 /* main.m in Sources */,
 				18CB2BCE1A9E52BA0016CCDA /* HomeViewController.m in Sources */,
@@ -432,6 +468,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Elie Nasr (GRJPPY6RBA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hamatoura.pch;
 				INFOPLIST_FILE = Hamatoura/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +482,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hamatoura.pch;
 				INFOPLIST_FILE = Hamatoura/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -87,5 +87,10 @@
     
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return nil;
+}
+
 
 @end
